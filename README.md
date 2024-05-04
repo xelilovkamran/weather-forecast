@@ -28,4 +28,4 @@ This is a simple weather forecast app that uses the OpenWeatherMap API to get th
 
 ## Demo
 
-You can view the live demo [here](https://weather-forecast-app.netlify.app/)
+You can view the live demo [here](https://app-weather-forecast.vercel.app/)
