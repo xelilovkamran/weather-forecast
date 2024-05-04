@@ -1,5 +1,3 @@
-import { name } from "ejs";
-
 const nameOfDay = document.querySelectorAll("#five-day .name-of-day");
 const dayWeatherIcon = document.querySelectorAll("#five-day  img");
 const dayMinmaxTemp = document.querySelectorAll("#five-day .min-max");
