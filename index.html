@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="weather forecast application for Azerbaijan"
+        />
+        <meta name="keywords" content="Azerbaijan, weather, forecast, map" />
+        <meta name="author" content="Xelilov Kamran" />
+        <link rel="stylesheet" href="./src/css/home.css" />
+        <link rel="stylesheet" href="./src/css/map.css" />
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="heading">Azərbaycan - Bölgələrə Görə Hava Məlumatı</h1>
+            <div class="options">
+                <button class="list-btn active">Bölgə Siyahısı</button>
+                <button class="map-btn">Xəritə</button>
+            </div>
+
+            <div class="input-wraper">
+                <input type="search" id="search" placeholder="Bölgə axtar" />
+            </div>
+
+            <div class="result"></div>
+        </div>
+        <script src="./src/js/home/map.js" type="module"></script>
+        <script src="./src/js/home/home.js" type="module"></script>
+    </body>
+</html>
