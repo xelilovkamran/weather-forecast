@@ -13,7 +13,7 @@ function showGeneralInformationTab(data) {
         for (let i = 0; i < data.list.length; i++) {
             const day = dayjs(data.list[i].dt_txt).locale("az").format("dddd");
             if (day === selectedDay.innerHTML) {
-                selectedTimeWeatherIcon.src = `../assets/svg/${data.list[i].weather[0].icon}.svg`;
+                selectedTimeWeatherIcon.src = `/svg/${data.list[i].weather[0].icon}.svg`;
                 temperatureArea.innerHTML = `${Math.round(
                     data.list[i].main.temp
                 )} <span>°C</span>`;
@@ -53,7 +53,7 @@ function updateGeneralInformationTab(data) {
             weatherConditionArea.innerHTML = i18next.t(
                 selectedTimeInformation.weather[0].description
             );
-            selectedTimeWeatherIcon.src = `../assets/svg/${selectedTimeInformation.weather[0].icon}.svg`;
+            selectedTimeWeatherIcon.src = `/svg/${selectedTimeInformation.weather[0].icon}.svg`;
         }
     }
 }

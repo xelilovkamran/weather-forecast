@@ -56,7 +56,7 @@ function showDaysTab(data) {
                     }
                 }
 
-                dayWeatherIcon[dayNumber++].src = `../assets/svg/${icon}.svg`;
+                dayWeatherIcon[dayNumber++].src = `/svg/${icon}.svg`;
 
                 icons.length = 0;
             }
@@ -83,7 +83,7 @@ function showDaysTab(data) {
                 }
             }
 
-            dayWeatherIcon[dayNumber].src = `../assets/svg/${icon}.svg`;
+            dayWeatherIcon[dayNumber].src = `/svg/${icon}.svg`;
         }
 
         // * SHOW WEATHER MAX AND MIN
