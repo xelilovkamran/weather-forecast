@@ -23,8 +23,7 @@ This is a simple weather forecast app that uses the OpenWeatherMap API to get th
 
 1. Clone the repository
 2. Run `npm install` to install the dependencies
-3. Create a `.env` file in the root directory and add your OpenWeatherMap API key as `VITE_API_KEY=your_api_key`
-4. Run `npm run dev` to start the development server
+3. Run `npm run dev` to start the development server
 
 ## Demo
 
