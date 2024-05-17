@@ -1,5 +1,9 @@
 # Weather Forecast App
 
+![Home Page](./public/png/project_home.png)
+
+## Description
+
 This is a simple weather forecast app that uses the OpenWeatherMap API to get the weather forecast for a given city.
 
 ## Features
